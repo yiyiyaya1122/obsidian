@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "29c2ec9282d805c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "684a3459a0a48f09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbbb238351ab7070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailynotes/2025.06.23-2025.06.29/2025-06-23.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-23"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "375e5326f539f470",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e7d9e3c4c073cc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2d14c5338475bed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0341d760f7e9f845",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "dfca02aa973d8237",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd490fe28c760216",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a5167931753886d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bec2c2a2112eca6e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-03-21.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-03-21"
+            }
+          },
+          {
+            "id": "21fb008b8b2c0df7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dailynotes/2025.05.26-2025.06.01/2025-05-28.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-05-28"
+            }
+          },
+          {
+            "id": "3a007e949b058292",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "394398f801ee21d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dailynotes/2025.06.23-2025.06.29/2025-06-23.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-06-23"
+            }
+          },
+          {
+            "id": "c8b138b188299ba4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
+    }
+  },
+  "active": "a2d14c5338475bed",
+  "lastOpenFiles": [
+    "pngs/Pasted image 20250623194512.png",
+    "dailynotes/2025.06.23-2025.06.29/2025-06-23.md",
+    "features/Basic Knowledge of Robots.md",
+    "dailynotes/2025.06.16-2025.06.22/2025-06-20.md",
+    "dailynotes/2025.06.23-2025.06.29",
+    "templates/dailynotes.md",
+    "dailynotes/2025.06.02-2025.06.08/2025-06-06.md",
+    "dailynotes/2025.06.16-2025.06.22/周报.md",
+    "dailynotes/2025.06.16-2025.06.22/2025-06-18.md",
+    "dailynotes/2025.06.16-2025.06.22/2025-06-16.md",
+    "dailynotes/2025.06.16-2025.06.22/2025-06-17.md",
+    "dailynotes/2025.06.16-2025.06.22/2025-06-19.md",
+    "dailynotes/2025.06.09-2025.06.15/周报.md",
+    "dailynotes/2025.06.16-2025.06.22/2025-06-18 1.md",
+    "Untitled.md",
+    "templates",
+    "dailynotes/2025.06.16-2025.06.22",
+    "dailynotes/2025.06.09-2025.06.15/2025-06-13.md",
+    "dailynotes/2025.06.09-2025.06.15/2025-06-09.md",
+    "dailynotes/2025.06.09-2025.06.15/2025-06-10.md",
+    "dailynotes/2025.06.09-2025.06.15/2025-06-11.md",
+    "dailynotes/2025.06.09-2025.06.15/2025-06-12.md",
+    "dailynotes/2025.06.02-2025.06.08/周报.md",
+    "dailynotes/2025.05.26-2025.06.01/2025-05-29.md",
+    "dailynotes/2025.05.26-2025.06.01/2025-05-30.md",
+    "dailynotes/2025.05.26-2025.06.01/2025-05-28.md",
+    "dailynotes/2025.05.26-2025.06.01/2025-05-26.md",
+    "dailynotes/2025.05.26-2025.06.01/2025-05-27.md",
+    "dailynotes/2025.06.02-2025.06.08/2025-06-03.md",
+    "pngs/Pasted image 20250607143342.png",
+    "pngs/Pasted image 20250606200704.png",
+    "Pasted image 20250610103843.png",
+    "dailynotes/2025.06.09-2025.06.15",
+    "pngs/Pasted image 20250606155955.png",
+    "pngs/Pasted image 20250606153611.png",
+    "pngs/Pasted image 20250530135130.png",
+    "pngs/Pasted image 20250523165159.png",
+    "pngs/Pasted image 20250523164935.png",
+    "pngs/Pasted image 20250522161300.png",
+    "pngs/Pasted image 20250515173624.png",
+    "dailynotes/2025.06.02-2025.06.08",
+    "summary",
+    "dailynotes/2025.05.26-2025.06.01",
+    "videos/正常堆上.mp4",
+    "videos/VID_20250428_190900.mp4",
+    "dailynotes/2025.05.19-2025.05.25"
+  ]
+}

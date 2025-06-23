@@ -1,0 +1,42 @@
+{
+  "todoPageName": "todo",
+  "showChecked": true,
+  "showAllTodos": false,
+  "showOnlyActiveFile": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "new->old",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [
+    "2025-04-22.md",
+    "2025-04-21.md",
+    "2025-04-24.md",
+    "2025-04-25.md",
+    "dailynotes/2025-04-24.md",
+    "dailynotes/2025-04-28.md",
+    "dailynotes/2025-04-25.md",
+    "dailynotes/2025-05-05.md",
+    "dailynotes/2025-04-22.md",
+    "dailynotes/2025-04-21.md",
+    "dailynotes/2025.05.12-2025.05.18/2025-05-13.md",
+    "dailynotes/2025-05-12.md",
+    "dailynotes/2025.05.12-2025.05.18/2025-05-14.md",
+    "dailynotes/2025.05.12-2025.05.18/2025-05-12.md",
+    "dailynotes/2025.05.05-2025.05.11/2025-05-05.md",
+    "dailynotes/2025.4/2025-04-28.md",
+    "dailynotes/2025.4/2025-04-25.md",
+    "dailynotes/2025.4/2025-04-24.md",
+    "dailynotes/2025.4/2025-04-22.md",
+    "dailynotes/2025.4/2025-04-21.md",
+    "dailynotes/2025.05.12-2025.05.18/2025-05-15.md",
+    "dailynotes/2025.05.12-2025.05.18/2025-05-16.md",
+    "dailynotes/2025.05.19-2025.05.25/2025-05-20.md"
+  ],
+  "_hiddenTags": [
+    "todo"
+  ]
+}
