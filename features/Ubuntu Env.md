@@ -24,6 +24,11 @@ sudo snap install obsidian --classic
 # flameshot
 sudo apt install flameshot 
 
+# gitkraken
+wget https://release.axocdn.com/linux/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
+
+
 
 ```
 
