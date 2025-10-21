@@ -11,17 +11,10 @@
             "id": "1e989d4d07ae1780",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "templates/reading.canvas",
-                "viewState": {
-                  "x": -270,
-                  "y": 90,
-                  "zoom": -0.33231970073395795
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "reading"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -145,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/reading.canvas",
+                "file": "videos/点云缺失对比.mp4",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of reading"
+              "title": "Outline of 点云缺失对比"
             }
           },
           {
@@ -182,8 +175,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e989d4d07ae1780",
+  "active": "a2d14c5338475bed",
   "lastOpenFiles": [
+    "videos/点云变厚.mp4",
+    "videos/上方锡锭漂移.mp4",
+    "videos/正常堆上.mp4",
+    "videos/VID_20250428_190900.mp4",
+    "videos/点云缺失对比.mp4",
+    "templates/reading.canvas",
     "templates/dailynote2.md",
     "templates/dailynote1.md",
     "README.md",
@@ -191,7 +190,6 @@
     "2025-09-04.md",
     "Untitled.md",
     "dailynotes/2025.8/2025.08.25-2025.08.31/2025-08-25.md",
-    "templates/reading.canvas",
     "dailynotes/2025.8/2025.08.11-2025.08.17/2025-08-11.md",
     "dailynotes/2025.8/2025.08.25-2025.08.31",
     "dailynotes/2025.8/Untitled",
@@ -217,14 +215,9 @@
     "2025-03-20 1.md",
     "dailynotes/2025.8/2025.0804-2025.0810/2025-08-04.md",
     "dailynotes/2025.3/2025.03.17-2025.03.23/2025-03-19.md",
-    "dailynotes/2025.3/2025.03.24-2025.03.30/2025-03-24.md",
     "dailynotes/2025.8/2025.08.04-2025.08.10",
     "dailynotes/2025.8",
     "dailynotes/2025.4/2025.04.28-2025.04.30",
-    "dailynotes/2025.4/2025.04.21-2025.04.27",
-    "dailynotes/2025.4/2025.04.14-2025.04.20",
-    "dailynotes/2025.4/2025.04.07-2025.04.13",
-    "dailynotes/2025.4/2025.03.31-2025.04.06",
     "pngs/Pasted image 20250721152024.png",
     "pngs/Pasted image 20250716134850.png",
     "Pasted image 20250721152024.png",
