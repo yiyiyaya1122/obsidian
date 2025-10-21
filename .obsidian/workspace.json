@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8ac1b6a250f0ca2c",
+        "id": "15c28c138dd584ca",
         "type": "tabs",
         "children": [
           {
-            "id": "850e14ed094334d9",
+            "id": "1e989d4d07ae1780",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "features/Ubuntu Env.md",
-                "mode": "source",
-                "source": false
+                "file": "templates/reading.canvas",
+                "viewState": {
+                  "x": -270,
+                  "y": 90,
+                  "zoom": -0.33231970073395795
+                }
               },
-              "icon": "lucide-file",
-              "title": "Ubuntu Env"
+              "icon": "lucide-layout-dashboard",
+              "title": "reading"
             }
           }
         ]
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "features/Ubuntu Env.md",
+                "file": "templates/reading.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ubuntu Env"
+              "title": "Outline of reading"
             }
           },
           {
@@ -157,8 +160,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           }
         ],
@@ -170,6 +173,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,11 +182,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "850e14ed094334d9",
+  "active": "1e989d4d07ae1780",
   "lastOpenFiles": [
-    "dailynotes/2025.8/2025.0804-2025.0810/2025-08-05.md",
     "templates/dailynote2.md",
     "templates/dailynote1.md",
+    "README.md",
+    "2025-10-15.md",
+    "2025-09-04.md",
+    "Untitled.md",
+    "dailynotes/2025.8/2025.08.25-2025.08.31/2025-08-25.md",
+    "templates/reading.canvas",
+    "dailynotes/2025.8/2025.08.11-2025.08.17/2025-08-11.md",
+    "dailynotes/2025.8/2025.08.25-2025.08.31",
+    "dailynotes/2025.8/Untitled",
+    "dailynotes/2025.8/2025.08.11-2025.08.17/reading.canvas",
+    "reading.canvas",
+    "dailynotes/2025.8/2025.08.11-2025.08.17",
+    "dailynotes/2025.8/2025.08.04-2025.08.10/2025-08-06.md",
+    "README (copy).md",
+    "a.canvas.md",
+    "pngs/Pasted image 20250805183203.png",
+    "pngs/Pasted image 20250806103924.png",
+    "dailynotes/2025.8/2025.08.04-2025.08.10/2025-08-05.md",
     "features/Ubuntu Env.md",
     "features/Basic Knowledge of Robots.md",
     "features/commands.md",
@@ -197,25 +218,13 @@
     "dailynotes/2025.8/2025.0804-2025.0810/2025-08-04.md",
     "dailynotes/2025.3/2025.03.17-2025.03.23/2025-03-19.md",
     "dailynotes/2025.3/2025.03.24-2025.03.30/2025-03-24.md",
-    "features/PointCloud Algorithms.md",
-    "features/Params.md",
-    "summary/锡锭堆叠总结.md",
-    "summary/summary.md",
-    "dailynotes/2025.4/2025.04.28-2025.04.30/2025-04-28.md",
-    "dailynotes/2025.8/2025.0804-2025.0810",
+    "dailynotes/2025.8/2025.08.04-2025.08.10",
     "dailynotes/2025.8",
     "dailynotes/2025.4/2025.04.28-2025.04.30",
-    "dailynotes/2025.4/2025.04.28-2025.04.30/2025-04-29.md",
-    "dailynotes/2025.4/2025.04.21-2025.04.27/2025-04-21.md",
-    "dailynotes/2025.4/2025.04.14-2025.04.20/2025-04-14.md",
     "dailynotes/2025.4/2025.04.21-2025.04.27",
-    "dailynotes/2025.4/2025.04.07-2025.04.13/2025-04-07.md",
     "dailynotes/2025.4/2025.04.14-2025.04.20",
     "dailynotes/2025.4/2025.04.07-2025.04.13",
     "dailynotes/2025.4/2025.03.31-2025.04.06",
-    "dailynotes/2025.3/2025.03.17-2025.03.23",
-    "dailynotes/2025.3/2025.03.24-2025.03.30",
-    "dailynotes/2025.7",
     "pngs/Pasted image 20250721152024.png",
     "pngs/Pasted image 20250716134850.png",
     "Pasted image 20250721152024.png",
@@ -223,8 +232,6 @@
     "pngs/Pasted image 20250607143342.png",
     "pngs/Pasted image 20250623194512.png",
     "pngs/Pasted image 20250701130428.png",
-    "pngs/Pasted image 20250701130737.png",
-    "pngs/Pasted image 20250606200704.png",
-    "pngs/Pasted image 20250606155955.png"
+    "pngs/Pasted image 20250701130737.png"
   ]
 }

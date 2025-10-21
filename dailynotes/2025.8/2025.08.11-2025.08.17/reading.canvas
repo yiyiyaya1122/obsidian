@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"《女生密码》\n一句话总结：XXXX","x":0,"y":0,"width":300,"height":100,"color":"#FFD966"},
+		{"id":"chap1_point1","type":"text","text":"观点 1：XXXX","x":-800,"y":-300,"width":220,"height":60,"color":"#EAD1DC"},
+		{"id":"chap1_point2","type":"text","text":"观点 2：XXXX","x":-800,"y":-100,"width":220,"height":60,"color":"#EAD1DC"},
+		{"id":"chap3_point1","type":"text","text":"观点 1：XXXX","x":-800,"y":380,"width":220,"height":60,"color":"#EAD1DC"},
+		{"id":"chap2","type":"text","text":"第二章：女性择偶的三条维度","x":-420,"y":20,"width":250,"height":80,"color":"#CFE2F3"},
+		{"id":"chap3","type":"text","text":"第三章：XXX","x":-420,"y":300,"width":250,"height":80,"color":"#CFE2F3"},
+		{"id":"chap2_point1","type":"text","text":"观点 1：女性择偶的三个：精挑细选or随遇而安？ 贤妻良母or自给自足？ 开放or保守？","x":-800,"y":60,"width":220,"height":60,"color":"#EAD1DC"},
+		{"id":"eee00e2df42c8575","x":-800,"y":180,"width":250,"height":60,"type":"text","text":"观点2：根据不同选择可以分为8种类型"},
+		{"id":"chap1","type":"text","text":"第一章：XXX","x":-420,"y":-200,"width":250,"height":80,"color":"#CFE2F3"},
+		{"id":"1cb3f8137337b9ab","type":"text","text":"第四章：XXX","x":-420,"y":480,"width":250,"height":80,"color":"#CFE2F3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"chap1","toSide":"bottom","color":"#6FA8DC"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"chap2","toSide":"right","color":"#6FA8DC"},
+		{"id":"e3","fromNode":"center","fromSide":"bottom","toNode":"chap3","toSide":"top","color":"#6FA8DC"},
+		{"id":"e4","fromNode":"chap1","fromSide":"left","toNode":"chap1_point1","toSide":"right"},
+		{"id":"e5","fromNode":"chap1","fromSide":"left","toNode":"chap1_point2","toSide":"right"},
+		{"id":"e6","fromNode":"chap2","fromSide":"left","toNode":"chap2_point1","toSide":"right"},
+		{"id":"e7","fromNode":"chap3","fromSide":"left","toNode":"chap3_point1","toSide":"right"},
+		{"id":"d06f2b5954c2aa65","fromNode":"center","fromSide":"bottom","toNode":"1cb3f8137337b9ab","toSide":"top"},
+		{"id":"9e4e896596bc5143","fromNode":"chap2","fromSide":"left","toNode":"eee00e2df42c8575","toSide":"right"}
+	]
+}

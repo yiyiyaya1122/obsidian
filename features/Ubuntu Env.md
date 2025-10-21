@@ -28,7 +28,17 @@ sudo apt install flameshot
 wget https://release.axocdn.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
 
+# clash
+https://www.mgodmonkey.cn/posts/a5d6f412.html
+sudo mv Clash\ for\ Windows-0.20.39-x64-linux /opt/clash
+cd /opt/clash  
+./cfw
 
+# time sync
+sudo apt update
+sudo apt install ntpdate
+sudo ntpdate time.windows.com
+sudo hwclock --localtime --systohc 
 
 ```
 
@@ -36,6 +46,7 @@ sudo dpkg -i gitkraken-amd64.deb
 1. [ubuntu 20.04 安装截图工具 flameshot](https://blog.csdn.net/qq_45642410/article/details/111054365) 
 2. [ubuntu初始配置——安装配置截图工具flameshot](https://juejin.cn/post/7345350913655816218)
 3. [ubuntu初始配置——汇总](https://juejin.cn/user/398498625489867/posts)
+4. [Linux/Ubuntu 安装图形界面版 clash-gui](https://www.mgodmonkey.cn/posts/a5d6f412.html)
 
 
 
