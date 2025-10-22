@@ -1,12 +1,16 @@
- # Self-Attention	
+
+# Self-Attention
 ![[Pasted image 20240912210444.png]]
-	![[Pasted image 20240912210547.png]]
-	
+
+![[Pasted image 20240912210547.png]]
+
 
 
 ![[Pasted image 20240912210501.png]]
-	![[Pasted image 20240912210908.png]]
-	
+
+![[Pasted image 20240912210908.png]]
+
+
 ![[Pasted image 20240912210935.png]]
 
 ![[Pasted image 20240912211050.png]]

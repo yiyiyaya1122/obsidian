@@ -1,0 +1,6 @@
+sudo apt install nfs-common
+mkdir ~/na3-volume3
+sudo mount -t nfs 10.156.56.222:/volume3/Nas_extend_data /home/midea/na3-volume3/
+
+mkdir ~/na3-volume1
+sudo mount -t nfs 10.156.56.222:/volume1/robot-data-nas3 /home/midea/na3-volume1/

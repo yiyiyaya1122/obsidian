@@ -1,3 +1,9 @@
+---
+date: "{{date}}"
+---
+```
+笔记开头输入"---"可添加属性
+```
 # header
 
 ==highlight== 
@@ -44,11 +50,25 @@ _italics_
 | :--: | :------: | :---: | :----: |
 |  1   |    2     |   3   |   4    |
 
-
 `pip install -r requirements.txt`
+
 ```python
 import cv2
 
 ```
 
+[Obsidian Help](https://help.obsidian.md)
 
+%% This is a comment %%
+
+$x^2 + y^2 = z^2$
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+
+
+
+
+
+<span style="color: blue; font-weight: bold;">蓝色粗体文本</span>
