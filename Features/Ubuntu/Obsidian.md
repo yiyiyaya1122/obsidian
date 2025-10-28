@@ -1,10 +1,17 @@
 ---
 date: "{{date}}"
 ---
+# Install
+
+```bash
+# 通过Snap安装
+sudo snap install obsidian --classic 
+```
+# Use
+
 ```
 笔记开头输入"---"可添加属性
 ```
-# header
 
 ==highlight== 
 

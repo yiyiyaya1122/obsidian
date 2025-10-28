@@ -13,7 +13,7 @@
 	(1) the model configuration (e.g. number of layers)
 	(2) the optimizer hyperparameters (e.g. learning rate)	
 	(3) the number of training steps
-# 三、tune   
+# 三、tuning
 1. Choosing the goal for the next round of experiments
 	- Try a potential improvement to the pipeline (e.g. a new regularizer, preprocessing choice, etc.).
 	- Understand the impact of a particular model hyperparameter (e.g.  activation function)	
