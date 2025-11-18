@@ -28,9 +28,14 @@ sudo gpasswd -a ${USER} docker
 sudo service docker restart
 newgrp - docker
 
+# 安装 Docker Compose
+sudo apt-get install -y docker-compose-plugin
+
 # 如果遇到权限问题，尝试:
 sudo chmod o+rw /var/run/docker.sock
 ```
+
+
 
 ## 安装NVIDIA容器运行时
 
@@ -64,8 +69,6 @@ sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
 # Use
 
 ```bash
-# ==================== Ubuntu 常用命令大全 ====================
-
 # 1. 镜像操作
 docker images # 列出本地镜像
 docker search image_name # 搜索镜像（从 Docker Hub）
@@ -79,8 +82,8 @@ docker load -i image.tar # 从 tar 文件加载镜像
 docker run -d -p 8080:8080 -v /host/path:/container/path --name my_container image_name # 运行容器（-d 后台运行，-p 端口映射，-v 挂载卷）
 docker ps # 列出运行中的容器
 docker ps -a # 列出所有容器（包括已停止的）
-docker stop container_id/name # 停止容器
 docker start container_id/name # 启动容器
+docker stop container_id/name # 停止容器
 docker restart container_id/name # 重启容器
 docker rm container_id/name -f # 删除容器（-f 强制删除运行中的容器）
 docker logs -f -n 100 container_id/name # 查看容器日志（-f 跟踪日志输出，-n 显示最后 n 行）
@@ -91,4 +94,77 @@ docker cp container_id/name:/container/path /host/path # 从容器复制文件/�
 
 ```
 
+```bash
+# 构建镜像
+docker compose -f docker/docker-compose.yml build
+docker compose -f docker/docker-compose.yml build --no-cache
+
+
+docker compose -f docker/docker-compose.yml up # 启动所有容器
+docker compose -f docker/docker-compose.yml down # 停止所有容器
+```
+
+# Dockerfile
+```Dockerfile
+
+# 设置基础镜像
+FROM ros:humble-ros-base-jammy
+
+# 设置工作目录
+WORKDIR /workspace  
+
+# 安装必要的工具和依赖
+RUN apt-get update && apt-get install -y \
+build-essential \
+cmake \
+git \
+wget \
+curl \
+python3-pip \
+python3-rosdep \
+python3-colcon-common-extensions \
+libopencv-dev \
+libeigen3-dev \
+libpcl-dev \
+libyaml-cpp-dev \
+&& rm -rf /var/lib/apt/lists/*
+
+# 初始化rosdep
+RUN rosdep init && rosdep update
+
+# 安装ROS2包
+RUN apt-get update && apt-get install -y \
+ros-humble-vision-opencv \
+ros-humble-pcl-ros \
+ros-humble-tf2 \
+ros-humble-tf2-ros \
+ros-humble-nav2-msgs \
+ros-humble-sensor-msgs \
+ros-humble-geometry-msgs \
+ros-humble-cv-bridge \
+&& rm -rf /var/lib/apt/lists/*  
+
+# 创建colcon工作空间
+RUN mkdir -p /workspace/src
+
+# 复制源代码（在构建时通过build context复制）
+COPY ../src /workspace/src  
+
+# 构建工作空间
+RUN cd /workspace && \
+rosdep install -y --from-paths src --ignore-src --rosdistro humble && \
+colcon build
+  
+# 设置环境变量
+ENV ROS_DOMAIN_ID=42
+ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp  
+
+# 设置入口点脚本
+COPY ../scripts/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+CMD ["bash"]
+```
   

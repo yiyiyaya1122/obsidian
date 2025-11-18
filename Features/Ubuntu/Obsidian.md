@@ -74,8 +74,27 @@ $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
 $$
 
-
-
-
-
 <span style="color: blue; font-weight: bold;">蓝色粗体文本</span>
+
+```mermaid
+flowchart LR
+	A --> B
+	A --> C
+	C -.-> D
+	D ==> E
+	E --text--> F
+```
+
+
+```mermaid
+pie 
+	title 项目成本分配（单位：万元） 
+	"人力成本" : 45.5 
+	"设备采购" : 20.3 
+	"其他支出" : 12.2
+```
+
+
+
+
+

@@ -44,7 +44,7 @@
 **快门**（**shutter**），可分为**全局**（**global**）跟**卷帘**（**roalling**）；可分为机械、电子。
 幕帘门运动速度恒定为4ms
 
-**Refeence**
+**Refernce**
 - [图解：卷帘快门(Rolling shutter)与全局快门(global shutter)的区别](https://www.shuangyi-tech.com/news_15.html)
 
 # 自动对焦

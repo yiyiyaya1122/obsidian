@@ -5,7 +5,7 @@ sudo apt install terminator
 ```
 
 # 启动
-```
+```bash
 Ctrl+Alt+T
 ```
 
